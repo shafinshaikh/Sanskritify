@@ -1,0 +1,74 @@
+body{
+    
+    background: linear-gradient(196.04deg, #B1C4FF 22.96%, #FCFCFF 100%);
+
+}
+.mybgnav{
+    background-color: #D6FFFA;
+    background-image: linear-gradient(315deg, #D6FFFA 52%, #D0C8E8 74%);
+}
+#navTitle{
+    font-size: xx-large;
+    color: orange;
+    font-family: 'Samarkan', sans-serif;
+}
+#navTitleEnd{
+    font-size: xx-large;
+    color: red;
+}
+.gbread{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+  }
+  .genderContainer{
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    gap: 0.05em;
+    font-size: xx-large;
+    flex-direction: column;
+    /* padding-bottom: 12%; */
+    background: rgba(255, 255, 255, 0.69);
+    max-width: 92vw;
+    border-radius: calc(var(--curve) * 0.3px) calc(var(--curve) * 0.3px) calc(var(--curve) * 0.3px) calc(var(--curve) * 0.3px);
+    align-items: center;
+  }
+  .genderButton{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    min-width: 50vw;
+    background: rgba(255, 255, 255, 0.69);
+
+  }
+  .genIcon{
+    float: left;
+  }
+  :root {
+    --surface-color: #fff;
+    --curve: 40;
+  }
+  .pronounsbg{  
+    background: linear-gradient(315deg, #FCFCFF 22.96%, #B1C4FF 100%);
+    border-radius: 0 0  calc(var(--curve) *2px) 0;
+    max-height: 30vh;
+  }
+  .titletxt{
+    color: #666666;
+}
+.mybgnav{
+    background: linear-gradient(196.04deg, #FCFCFF 22.96%, #B1C4FF 100%);
+
+}
+
+.tableTitle{
+  text-align: center;
+}
+.gtables{
+  width: 90%;
+  margin: auto;
+}
+.hashTags{
+  color: #1F4690;
+  text-align: center;
+}
